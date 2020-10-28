@@ -1,5 +1,5 @@
 package mytest;
-
+import java.util.Scanner;
 public class Test {
 
 	public static void main(String[] args) {
@@ -12,7 +12,9 @@ public class Test {
 		for(int i=0;i<2; i++){
 		System.out.println("Hello");
 		}
-
+		
+		Scanner scan = new Scanner(System.in);
+		System.out.println("Please Enter Your name");
 
 	}
 
