@@ -17,6 +17,7 @@ public class Test {
 		System.out.println("Please Enter Your name");
 		String s = scan.next().trim().toLowerCase();
 		System.out.println(s);
+		Array arr[] ={1,2,3};
 
 	}
 
