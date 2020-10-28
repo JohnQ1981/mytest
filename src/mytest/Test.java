@@ -1,4 +1,5 @@
 package mytest;
+import java.util.Arrays;
 import java.util.Scanner;
 public class Test {
 
@@ -17,7 +18,8 @@ public class Test {
 		System.out.println("Please Enter Your name");
 		String s = scan.next().trim().toLowerCase();
 		System.out.println(s);
-		Array arr[] ={1,2,3};
+		int arr[] ={1,2,3};
+		System.out.println(Arrays.toString(arr));
 
 	}
 
