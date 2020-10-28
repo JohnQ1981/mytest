@@ -9,6 +9,9 @@ public class Test {
 		System.out.println("Test3");
 
 		System.out.println("Done in gitHub");
+		for(int i=0;i<2; i++){
+		System.out.println("Hello");
+		}
 
 
 	}
