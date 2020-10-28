@@ -15,6 +15,8 @@ public class Test {
 		
 		Scanner scan = new Scanner(System.in);
 		System.out.println("Please Enter Your name");
+		String s = scan.next().trim().toLowerCase();
+		System.out.println(s);
 
 	}
 
